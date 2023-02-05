@@ -11,7 +11,7 @@ ddd_repository.append(DDD(82, "Maceió"))
 ddd_repository.append(DDD(96, "Macapá"))
 ddd_repository.append(DDD(92, "Manaus"))
 ddd_repository.append(DDD(71, "Salvador"))
-
+ddd_repository.append(DDD(85, "Fortaleza"))
 
 ddd_service = DddService(ddd_repository)
 user_interface = UserInterface(ddd_service)
