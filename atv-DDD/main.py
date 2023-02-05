@@ -6,8 +6,12 @@ from user_interface import UserInterface
 
 ddd_repository = DddRepository()
 
-ddd_repository.append(DDD(75, "Feira de Santana"))
+ddd_repository.append(DDD(68, "Rio Branco"))
+ddd_repository.append(DDD(82, "Maceió"))
+ddd_repository.append(DDD(96, "Macapá"))
+ddd_repository.append(DDD(92, "Manaus"))
 ddd_repository.append(DDD(71, "Salvador"))
+ddd_repository.append(DDD(85, "Fortaleza"))
 
 ddd_service = DddService(ddd_repository)
 user_interface = UserInterface(ddd_service)
