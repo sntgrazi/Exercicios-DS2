@@ -7,7 +7,7 @@ class DddRepository():
     def getDDD(self, cod: int) -> str:
         for d in self.ddd_repository:
             if(cod == d.cod):
-              return f"O DDD informado é da cidade: {d.cidade}"
+              return d.cidade
         
     def append(self, ddd_repository: DDD) -> None:
         self.ddd_repository.append(ddd_repository)
