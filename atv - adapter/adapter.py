@@ -9,10 +9,10 @@ class QuadradoParaCirculo:
     def __init__(self, quadrado: Quadrado) -> None:
         self.quadrado = quadrado
     
-    def calcular_area(self):
+    def calcular_area(self) -> float:
         return 3.14 * (quadrado.lado ** 2)
 
-def calcular_area(forma):
+def calcular_area(forma) -> float:
     return forma.calcular_area()
 
 quadrado = Quadrado(2)
