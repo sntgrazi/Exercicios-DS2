@@ -1,7 +1,7 @@
 # Exercicios-DS2
 
 Grupo:
-- Carla Sainara
+- Carla Saionara
 - Chaira Santos
 - Fred Henrique
 - Grazielle Santana
